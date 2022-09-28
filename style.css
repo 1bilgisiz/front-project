@@ -1,0 +1,140 @@
+nav {
+    position: fixed;
+    color: blueviolet;
+    
+}
+
+nav ul li a:hover{
+    background: cadetblue;
+
+}
+
+.sectionHakkı{
+    width: 300px;
+    height: 300px;
+}
+
+.sectionhakkimda{
+    background-color: white;
+    margin-top:auto;
+    padding: auto ;
+}
+
+ 
+.hakkımdaresim {
+    
+    width: 400px;
+    height: 400px;
+} 
+
+.content {
+    margin: 80px auto;
+}
+
+h1 {
+    position: absolute;
+    top: 90px;
+    left: 450px;
+    font-size: 50px;
+
+}
+
+.orta_alan{
+    display: flex;
+    width: 95%;
+    justify-content: space-around;
+}
+
+.orta{
+    width: 22%;
+    border: 2px solid gray;
+    border-radius: 15px;
+    margin: 2% 0;
+    box-sizing: border-box;
+    background: linear-gradient(rgba(52,64,98,0.8)),(rgba(52,64,98,0.5));
+}
+
+.orta .icerik{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: black;
+    size: 15px;
+}
+
+
+
+.orta img {
+    width: 75%;
+}
+
+.contentDiv {
+    height: 700px;
+    width: 640px;
+    background-color: darkgrey;
+    margin-top:10px ;
+    font-size: 30px;
+}
+
+.deleteButton {
+    height: 40px;
+    width: 40px;
+    background-color:wheat ;
+    display: inline-block;
+    color: white;
+    margin-left: 10px;
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+.container{
+    max-width: 1px;
+    background-color: white ;
+    margin: auto;
+}
+.footer {
+    background-color: whitesmoke;
+    padding: 70px 0 ;
+
+}
+h4{
+    text-align: center;
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+}
+
+
+
+.footer ul  a {
+    text-align: center;
+    font-size: 16px;
+    text-transform:capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    align-items: center;
+}
+/* 
+.footer .social-links{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255, 255, 0);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50px;
+    color: #ffffff;
+    transition: all 0.5s ease;
+} */
+/* .footer .social-links align-self :hover{
+    color: #24262b;
+    background-color: #ffffff;
+} */
